@@ -7,7 +7,10 @@ namespace LinqHowTos
     {
         static void Main(string[] args)
         {
-            Car.ProcessCars().Take(400).PrintToConsole();
+            var filePath = "vehicles.csv";
+
+            Car.GetCarsFromCsv(filePath).Take(5).PrintToConsole();
+            Console.ReadKey();
         }
     }
 }
