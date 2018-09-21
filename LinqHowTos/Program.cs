@@ -9,8 +9,14 @@ namespace LinqHowTos
         {
             var filePath = "vehicles.csv";
 
-            Car.GetCarsFromCsv(filePath).Take(5).PrintToConsole();
-            Console.ReadKey();
+            var query = CarParser.GetCarsFromCsv(filePath);
+
+            var twelveCylinderCars = (from car in query
+                        where car.Cylinders == 12
+                        orderby car.Year
+                        select car)
+                        .Take(5);
+            twelveCylinderCars.PrintToConsole();
         }
     }
 }
