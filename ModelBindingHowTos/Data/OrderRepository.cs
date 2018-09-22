@@ -12,7 +12,7 @@ namespace ModelBindingHowTos.Data
         private static List<Order> _orders = Populate();
         public IEnumerable<Order> GetPage(int pageNumber, int itemsPerPage)
         {
-            return _orders;
+            return _orders.Skip((pageNumber - 1) * itemsPerPage).Take(itemsPerPage);
         }
 
         public Order OrderWithId(Guid id)

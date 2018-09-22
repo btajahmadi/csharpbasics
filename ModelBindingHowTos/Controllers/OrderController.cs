@@ -19,10 +19,11 @@ namespace ModelBindingHowTos.Controllers
         //{
         //    return RedirectToAction(nameof(List));
         //}
+        [Route("Orders")]
         [Route("Orders/List")]
         public IActionResult List(int page = 1)
         {
-            var query = _orderRepository.GetPage(page, 10)
+            var query = _orderRepository.GetPage(page, 5)
                 .Select(o => new OrderViewModel()
                 {
                     OrderId = o.Id,
