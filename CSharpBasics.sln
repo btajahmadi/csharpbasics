@@ -4,9 +4,13 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqHowTos", "LinqHowTos\LinqHowTos.csproj", "{257A0CEF-20C3-4EC1-B655-694A2A05341C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationHowTos", "SerializationHowTos\SerializationHowTos.csproj", "{8B15625E-6EA5-42F5-A029-71B5F1C3E1F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerializationHowTos", "SerializationHowTos\SerializationHowTos.csproj", "{8B15625E-6EA5-42F5-A029-71B5F1C3E1F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeHowTos", "TimeHowTos\TimeHowTos.csproj", "{03378986-651D-481D-B58A-1C23A443C6E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeHowTos", "TimeHowTos\TimeHowTos.csproj", "{03378986-651D-481D-B58A-1C23A443C6E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionHowTos", "DependencyInjectionHowTos\DependencyInjectionHowTos.csproj", "{52F3E50A-6E9C-405E-A3E3-E3EB86C104BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelBindingHowTos", "ModelBindingHowTos\ModelBindingHowTos.csproj", "{0FADA0FB-409A-49B4-BB22-96F0D72F6429}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,6 +58,30 @@ Global
 		{03378986-651D-481D-B58A-1C23A443C6E7}.Release|x64.Build.0 = Release|Any CPU
 		{03378986-651D-481D-B58A-1C23A443C6E7}.Release|x86.ActiveCfg = Release|Any CPU
 		{03378986-651D-481D-B58A-1C23A443C6E7}.Release|x86.Build.0 = Release|Any CPU
+		{52F3E50A-6E9C-405E-A3E3-E3EB86C104BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F3E50A-6E9C-405E-A3E3-E3EB86C104BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F3E50A-6E9C-405E-A3E3-E3EB86C104BA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{52F3E50A-6E9C-405E-A3E3-E3EB86C104BA}.Debug|x64.Build.0 = Debug|Any CPU
+		{52F3E50A-6E9C-405E-A3E3-E3EB86C104BA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{52F3E50A-6E9C-405E-A3E3-E3EB86C104BA}.Debug|x86.Build.0 = Debug|Any CPU
+		{52F3E50A-6E9C-405E-A3E3-E3EB86C104BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F3E50A-6E9C-405E-A3E3-E3EB86C104BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52F3E50A-6E9C-405E-A3E3-E3EB86C104BA}.Release|x64.ActiveCfg = Release|Any CPU
+		{52F3E50A-6E9C-405E-A3E3-E3EB86C104BA}.Release|x64.Build.0 = Release|Any CPU
+		{52F3E50A-6E9C-405E-A3E3-E3EB86C104BA}.Release|x86.ActiveCfg = Release|Any CPU
+		{52F3E50A-6E9C-405E-A3E3-E3EB86C104BA}.Release|x86.Build.0 = Release|Any CPU
+		{0FADA0FB-409A-49B4-BB22-96F0D72F6429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FADA0FB-409A-49B4-BB22-96F0D72F6429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FADA0FB-409A-49B4-BB22-96F0D72F6429}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0FADA0FB-409A-49B4-BB22-96F0D72F6429}.Debug|x64.Build.0 = Debug|Any CPU
+		{0FADA0FB-409A-49B4-BB22-96F0D72F6429}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0FADA0FB-409A-49B4-BB22-96F0D72F6429}.Debug|x86.Build.0 = Debug|Any CPU
+		{0FADA0FB-409A-49B4-BB22-96F0D72F6429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FADA0FB-409A-49B4-BB22-96F0D72F6429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FADA0FB-409A-49B4-BB22-96F0D72F6429}.Release|x64.ActiveCfg = Release|Any CPU
+		{0FADA0FB-409A-49B4-BB22-96F0D72F6429}.Release|x64.Build.0 = Release|Any CPU
+		{0FADA0FB-409A-49B4-BB22-96F0D72F6429}.Release|x86.ActiveCfg = Release|Any CPU
+		{0FADA0FB-409A-49B4-BB22-96F0D72F6429}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

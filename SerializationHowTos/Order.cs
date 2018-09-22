@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.Serialization;
 using System.Text;
 using System.Xml;
 using System.Xml.Schema;
@@ -14,7 +13,7 @@ namespace SerializationHowTos
         public Order(string description, Customer customer)
         {
             if (customer == null) throw new ArgumentNullException();
-            Description = description ?? throw new ArgumentException();
+            Description = description ?? throw new ArgumentNullException();
             CustomerId = customer.Id; 
             Id = Guid.NewGuid();
             DateCreated = DateTime.UtcNow;
@@ -28,9 +27,8 @@ namespace SerializationHowTos
         {
             if (product == null)
                 throw new ArgumentNullException();
-            Items.Add(new OrderItem(Id, product.Id, quantity));
+            Items.Add(new OrderItem(Id, product, quantity));
         }
-
         public static IEnumerable<Order> SeedOrders()
         {
             return new List<Order>()
@@ -39,7 +37,6 @@ namespace SerializationHowTos
 
 
             };
-
         }
         public XmlSchema GetSchema()
         {
